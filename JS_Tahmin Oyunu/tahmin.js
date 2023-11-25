@@ -19,24 +19,24 @@
 //   }
 // }
 
-let hak = 6;
+let hak = 3;
 let pcSayi = Math.floor(Math.random() * 100) + 1;
 
 for (let i = 1; i < hak; i++) {
   let tahmin = +prompt(`Lütfen bir sayi giriniz `);
 
   if (tahmin > pcSayi) {
-    alert("Daha küçük bir sayı giriniz");
+    alert("Daha küçük bir sayi giriniz");
   } else if (tahmin < pcSayi) {
-    alert("Daha büyük bir sayı giriniz");
+    alert("Daha büyük bir sayi giriniz");
   } else if (tahmin == pcSayi) {
-    alert("Tebrikler kazandınız");
+    alert("Tebrikler kazandiniz");
     break;
   }
-  alert(`${i}` + ". Hakkınızı kullandınız");
+  alert(`${i}` + ". Hakkinizi kullandiniz");
 
   if (i == hak - 1) {
-    alert("Hakkınız bitmiştir.");
+    alert("Hakkiniz bitmiştir.");
     break;
   }
 }
